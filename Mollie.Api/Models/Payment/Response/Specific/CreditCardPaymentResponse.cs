@@ -74,7 +74,7 @@ namespace Mollie.Api.Models.Payment.Response {
     /// </summary>
     public enum CreditCardSecurity {
         Normal,
-        Secure3D
+        [EnumMember(Value = "3dsecure")] Secure3D
     }
 
     /// <summary>
